@@ -17,6 +17,7 @@
 
 function question1() {
 	// your answer here
+	$('p').css('color','blue');
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +30,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$('h2').text('Abdulrhman')
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +44,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$('#falseFact').text('value','True Fact')
 }
 
 $("#button3").on('click', question3);
@@ -54,7 +57,10 @@ $("#button3").on('click', question3);
  * Question 4:
  * When button 4 is clicked, change the background color of the whole page to "pink"
  */
-
+function question4(){
+	$('body').css('background-color','pink')
+}
+$("#button4").on('click', question4);
 // your answer here
 
 /**
@@ -62,7 +68,11 @@ $("#button3").on('click', question3);
  * When button 5 is clicked, change the color of all h2's to "green"
  */
 
-// your answer here
+// your answer 
+function question5(){
+	$('h2').css('color','green')
+}
+$("#button5").on('click', question5);
 
 /**
  * Question 6:
@@ -70,6 +80,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question6(){
+	$('body').css('background-color','pink')
+}
+$("#button6").on('click', question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
